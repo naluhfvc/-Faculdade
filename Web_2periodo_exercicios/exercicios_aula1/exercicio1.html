@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+    //  1. Escreva um programa que imprima 2 números de sua escolha e que depois imprima a soma, a subtração, multiplicação, divisão, divisão inteira, o resto da divisão do maior pelo menor e coloque na mensagem a palavra resto ao invés de símbolo %.
+
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    var num1 = 13;
+    var num2 = 50;
+
+    document.write("numero 1: " + num1);
+    pulaLinha();
+    document.write("numero 2: " + num2);
+    pulaLinha();
+    document.write(num1 + " + "+ num2 + " = " + (num1+num2));
+    pulaLinha();
+    document.write(num1 + " - "+ num2 + " = " + (num1-num2));
+    pulaLinha();
+    document.write(num1 + " * "+ num2 + " = " + (num1*num2));
+    pulaLinha();
+    document.write(num1 + " / "+ num2 + " = " + (num1/num2));
+    pulaLinha();
+    document.write(num1 + " / "+ num2 + " = " + parseInt(num1/num2));
+    pulaLinha();
+    document.write(num2 + " resto "+ num1 + " = " + (num2 % num1));
+    </script>
+</body>
+
+</html>

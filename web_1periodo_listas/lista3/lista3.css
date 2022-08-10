@@ -1,0 +1,148 @@
+/*QUESTÃO 1*/
+
+#field1{
+    border-color:blue;
+    background-color: hsla(192, 85%, 44%, 0.137);
+    padding-left:150px;
+    padding-top:50px;
+    background-image:url('pocoyo.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    border-radius:30px;
+    color:blue;
+}
+fieldset{
+    border-color:aqua;
+}
+legend{
+    border-style:ridge;
+    border-color: aqua;
+    border-radius:5px;
+    font-family: Arial;
+    font-weight:bold;
+    color: rgba(37, 37, 218, 0.896);
+}
+#geral{
+    padding-top:40px;
+    padding-left:75px;
+    width:950px;
+    height:580px;
+    border-style:inset;
+    border-radius:12px;
+   
+}
+#dados{
+    width:380px;
+    position: relative;
+    background-image:url('pgg.png');
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size:120px;
+    border-radius:10px;
+   
+}
+#local{
+    width:400px;
+    position: relative;
+    left:450px;
+    bottom: 166px;
+    height:146px;
+    background-image:url('local.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:180px;
+    border-radius:10px;
+
+}
+#faixa{
+     position: relative;
+     bottom: 150px;
+     width: 850px;
+     background-image:url('plocal.png');
+     background-repeat: no-repeat;
+     background-position: right ;
+     background-size:150px;
+     border-radius:10px;
+     height:150px;
+}
+#idades{
+     position:relative;
+     bottom:108px;
+     left:390px;
+}
+#esportes{
+     position: relative;
+     bottom: 130px;
+     width: 850px;
+     background-image:url('esport.png');
+     background-repeat: no-repeat;
+     background-position: right;
+     background-size: 130px;
+     border-radius:10px
+}
+#comentario{
+    position:relative;
+    top:10px;
+    width:1013px;
+    border-style:inset;
+    border-radius:12px;
+    background-image:url('pcoment.png');
+    background-repeat:no-repeat;
+    background-position:770px;
+    background-size:150px;
+    
+}
+.botoes{
+    border-color:aqua;
+    position:relative;
+    top:10px;
+}
+select{
+    width:240px;
+}
+#msg{
+    position:relative;
+    left: 60px
+}
+textarea{
+    border-radius:5px;
+    border-color: rgba(37, 37, 218, 0.896);
+}
+.inputs{
+    border-color:blue;
+    border-radius:5px;
+}
+body{
+    font-family:arial;
+}
+
+hr{
+    background-color:red;
+}
+/*QUESTÃO 2*/
+
+table{
+    position:relative;
+    top:40px;
+    width:300px;
+    font-family:arial;
+    background-color:#F9F9F9;
+}
+.azul{
+    color:#0645AD;
+    font-weight:bold;
+}
+.bg{
+    background-color:cyan;
+}
+td{
+    border:0;
+}
+th{
+    border:0;
+}
+#limitrofe{
+    position:relative;
+    bottom:20px;
+}
+

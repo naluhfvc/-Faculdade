@@ -1,0 +1,77 @@
+#container{
+    width:950px;
+    margin: 0px auto;
+}
+#header{
+    height:30px;
+    background-color:blue;
+    font-family:cursive;
+    font-size:22px;
+    text-align:center;
+    color:yellow;
+    font-weight:bold;
+}
+.nav{
+    background-color:#333;
+    overflow:hidden;
+}
+.nav a{
+    float:left;
+    color:#FF00FF;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+.nav a:hover{
+    background-color:#DDD;
+    color:red;
+}
+#left{
+    float:left;
+    width:200px;
+    height:255px;
+    background-image:url('pgg.png');
+    background-repeat:no-repeat;
+    background-size:100px;
+    background-color:gainsboro;
+    color:darkblue;
+    font-family:verdana;
+    font-size:14px;
+    font-style:italic;
+    background-position:top right;
+}
+#content{
+    width:558px;
+    height:255px;
+    color:crimson;
+    font-family:Verdana;
+    font-size:17px;
+    background-color:aqua;
+    display:inline-block;
+    text-align:justify;
+}
+#right{
+    float:right;
+    width:192px;
+    height:255px;
+    background-color:hotpink;
+    background-image:url('pgg.png');
+    background-size:200px;
+    background-repeat:no-repeat;
+}
+#footer{
+    text-align:center;
+    background-color:blue;
+    color:white;
+    font-family:cursive;
+    font-size:16px;
+}
+p{
+    text-decoration:underline;
+    text-transform:capitalize;
+}
+#a{
+    text-shadow: 4px 4px 2px red, 4px 6px 1px green;
+    font-size:20px;
+
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista 3-Questão 1</title>
+        <link rel="stylesheet" href="lista3.css">
+    </head>
+    <body>
+        <!--QUESTÃO 1-->
+       <form method="POST">
+            <fieldset id="field1">
+            <fieldset id="geral">
+                <legend> Cadastro Geral </legend>
+            <fieldset id="dados">
+                <legend> Dados pessoais </legend>
+                <p>Nome Completo: <br><input class='inputs'type='text' size=30%/></p>
+                <p>Profissão:<br>
+                     <select class='inputs'>
+                         <option>Sua Profissão </option>
+                         <option>Médico </option>
+                         <option>Engenheiro </option>
+                     </select></p>
+            </fieldset>
+            <fieldset id="local">
+                <legend> Localização </legend>
+                <p>E-mail: <br> <input class='inputs'type='email' size=30%/></p>
+                <p>Rua: <br> <input class='inputs'type='text'size=30%/></p>
+            </fieldset>
+            <fieldset id="faixa">
+                <legend>Faixa etária </legend>
+                <p><input type='radio'name='idade'/>até 20 anos</p>
+                <p><input type='radio'name='idade'/>mais de 20 até 30 anos</p>
+                <p><input type='radio'name='idade'/>mais de 30 até 40 anos</p>
+                <div id="idades">
+                <p><input type='radio'name='idade'/>mais de 40 até 50 anos</p>
+                <p><input type='radio'name='idade'/>mais de 50 até 60 anos</p>
+                <p><input type='radio'name='idade'/>mais de 60</p></div>
+            </fieldset>
+            <fieldset id="esportes">
+                <legend> Esportes que pratica </legend>
+                <input type='checkbox'/>Futebol de campo <br>
+                <input type='checkbox'/>Futebol de salão <br>
+                <input type='checkbox'/>Futebol society <br>
+                <input type='checkbox'/>Volley de quadra <br>
+                <input type='checkbox'/>Volley de praia <br>
+                <input type='checkbox'/>Natação em piscina <br>
+                <input type='checkbox'/>Natação em mar aberto
+            </fieldset>
+            </fieldset>
+            <fieldset id="comentario">
+                <legend>Comentário </legend>
+                <p id="msg">Mensagem: <br> <textarea cols=70 rows=10></textarea></p>
+            </fieldset>
+            <p><input class='botoes'type="submit"/>
+            <input class='botoes' type="reset"/></p>
+            </fieldset>
+        </form> 
+
+
+        <hr size=10/>
+        <!--QUESTÃO 2-->
+
+        <table align='center' border="3">
+         <tr>
+             <th colspan="2"><font size=3>Munícipio de Brumado</font></th>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Aniversário</font></td>
+             <td><font size="2">11 de junho</font></td>
+         </tr>
+         <tr>
+             <td class="azul"><font size='2'>Fundação</font></td>
+             <td><font size='2'>1877</font></td>
+         </tr>
+         <tr>
+             <th colspan="2" class="bg"><font size="2">Localização</th>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Unidade<br> federativa</td>
+             <td><font size="2">Bahia</td>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Microrregião</td>
+             <td><font size="2">Brumado</td>
+         </tr>
+         <tr>
+             <td class="azul" id="limitrofe"><font size="2">Munícipios<br> limítrofes</td>
+             <td><font size="2">Rio de Contas, Dom Basílio,<br>Livramento de Nossa Senhora, Rio<br>do Antônio, Malhada de Pedras,<br>Maetinga, aracatu, Tanhaçu, Ituaçu</td>
+         </tr>
+         <tr>
+             <th colspan="2" class="bg"><font size="2">Características geográficas</th>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Área</td>
+             <td><font size="2">2.166,532 <font color='#0645AD'>km²</font></td>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">População</td>
+             <td><font size="2">64.642 hab. est. <font color='#0645AD'>IBGE/2009</font></td>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Altitude</td>
+             <td><font size="2">454 <font color='#0645AD'>m</font></td>
+         </tr>
+         <tr>
+             <td class="azul"><font size="2">Clima</td>
+             <td><font size="2">Semiárido</td>
+         </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+h2{
+    font-family: arial;
+}
+
+/*-----------------QUESTAO 1-----------*/
+
+.nav{
+    margin-left: 14%;
+}
+
+.itensmenu{
+    background-color: #808080;
+    float:left;
+    width:120px;
+    text-align: center;
+    padding: 3px 9px;
+    margin-left:1px;
+    overflow: hidden;
+}
+
+.itensmenu:hover{
+    background-color: #007FFF;
+}
+
+.itensmenu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: calibri;
+    color:white;
+}
+
+.itensmenu a:hover{
+    color:gray;
+}
+
+/*--------------------QUESTAO 2---------------*/
+#menu{
+    margin-left:60px;
+}
+.opcoes{
+    background-color:rgb(204,204,204);
+    width:180px;
+    height:45px;
+    overflow: hidden;
+    margin-bottom:3px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    font-family:calibri;
+    font-size:20px;
+    position:relative;
+    left:23px;
+    top:9px;
+    color:white;
+}
+.opcoes:hover{
+    background-color:rgb(224,27,106) ;
+}
+.imgmenu{
+    background-color: rgb(224,27,106);
+    width:50px;
+    height:45px;
+    float:left;
+}
+.imgmenu img{
+    width:22px;
+    padding:10px 14px;
+}
+
+/*--------------QUESTAO 4---------------*/
+
+#left_top{
+    width:150px;
+    height:150px;
+    background-color: red;
+    float:left;
+}
+
+#left_down{
+    float:left;
+    width:150px;
+    height:150px;
+    background-color: green;
+    position:relative;
+    top:491px;
+    right:152px;
+}
+
+#right_top{
+    float:right;
+    width:150px;
+    height:150px;
+    background-color: yellow;
+}
+
+#right_down{
+    float:right;
+    width:150px;
+    height:150px;
+    background-color: blue;
+    position:relative;
+    top:491px;
+    left:152px
+}
+
+/*-----------questao 5-----------*/
+.divs{
+    width:200px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.divs a{
+    text-decoration: none;
+    font-family: arial;
+    color: blue;
+    position: relative;
+    bottom:12px;
+}
+
+.img{
+    width:200px;
+    height: 140px;
+}
+.chave{
+    font-family: verdana;
+    font-weight: bold;
+    margin-top: 6px;
+}

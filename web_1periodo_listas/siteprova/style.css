@@ -1,0 +1,331 @@
+body{
+    background-color: #050527;
+}
+
+#container{
+    width:100%;
+    margin:auto;
+}
+/*-----------------navegação-----------------------*/
+.nav{
+    background-color:#12125b ;
+    overflow: hidden;
+    height:70px;
+    width:1330px;
+}
+
+.nav a{
+    float: left;
+    color:white;
+    padding: 25px 16px;
+    font-family: helvetica ;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.nav a:hover{
+    color:red;
+}
+#nomesite{
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 60px;
+    margin-right: 25px;
+    font-family:tahoma;
+    letter-spacing: 1px;
+    background-image: linear-gradient(#ff0000, #a62cf8d9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#busca {
+    margin-left: 235px;
+    margin-top:17px;
+    height: 28px;
+    width:330px;
+    background-color: #56525267;
+    border-radius: 8px;
+}
+
+#botaobusca{
+    width:25px;
+    height:32px;
+    position:relative;
+    right:30px;
+    top:11px;
+    background-color: transparent;
+    border:none;
+}
+#botaobusca:hover, #iconebusca:hover{
+    cursor:pointer;
+}
+#iconebusca{
+    width:20px;
+    position: relative;
+    right:57px;
+    top:4px;
+}
+#content{
+    width:828px;
+    height:1500px;
+    display:inline-block;
+    background-color:#0b0b41;
+    overflow:hidden;
+    margin-top: 30px;
+    margin-left: 67px;
+}
+
+#right{
+    float:right;
+    width:340px;
+    height:1500px;
+    background-color: #0b0b41;
+    color:white;
+    font-family:arial;
+    position:absolute;
+    top:108px;
+    left:904px;
+
+}
+
+#footer{
+    height:70px;
+    background-color: #0a0a58d6;
+    margin-top: 60px;
+    color:rgba(255, 255, 255, 0.599);
+    width:1330px;
+}
+#footer p{
+    font-family: arial;
+    text-align: center;
+    top:23px;
+    font-size: 14px;
+    position: relative;
+}
+/*--------------------Recomendados e etc---------------*/
+h2{
+    letter-spacing: 1px;
+    margin-left:41px;
+    font-family: arial;
+    color:white;
+}
+#add{
+    margin-top:35px;
+}
+hr{
+  position:relative;
+  top:12px;
+  width:90%;
+}
+.divRe{
+    width:140px;
+    height:276px;
+    overflow:hidden;
+    font-family:arial;
+    font-size:15px;
+    transition:transform 0.3s;
+    margin-left: 41px;
+    display:inline-block
+}
+.imgRedentro{
+    width:140px;
+    height:220px;
+    border-radius: 10px;
+}
+.divRe a{
+    display: block;
+    margin-top:2px;
+    margin-left: 7px;
+    color:white;
+    text-decoration:none;
+}
+.divRe a:hover{
+    color:yellow;
+
+}
+.divRe:hover{
+    transform: scale(1.1);
+}
+.star{
+    width:12px;
+    height:12px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.divstar{
+    background-color: #1a1717c9;
+    overflow: hidden;
+    width:42px;
+    height:18px;
+    border-radius: 8px;
+    margin-left:3px;
+    margin-top:2px;;
+    color:white;
+    font-size: 14px;
+}
+#divespaço{
+    margin-left:7px;
+}
+#espaço{
+    margin-top: 17px;
+}
+#ultimoseps{
+    margin-top: 35px;
+}
+.episodios {
+    width:240px;
+    margin-left: 41px;
+    font-size:15px;
+    overflow: hidden;
+    transition:transform 0.3s;
+    display:inline-block;
+    margin-right:2px;
+    height:185px;
+}
+.episodios:hover{
+    transform: scale(1.1);
+}
+.episodios img{
+    width:240px;
+    border-radius: 8px;
+}
+.episodios a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    margin-left: 7px;
+}
+.episodios a:hover{
+    color:yellow;
+}
+
+/*--------------------POPULARES-----------------*/
+.img{
+    width:150px;
+}
+.divimagem{
+    margin-left:25px;
+    width:290px;
+    height:84px;
+    background-color: #0a0a31;
+    overflow: hidden;
+    margin-top:16px;
+}
+.divimagem:hover{
+    transition:transform 0.2s;
+    transform: scale(1.1);
+}
+
+#divimg:hover,#divimg2:hover,#divimg3:hover, #divimg4:hover,#divimg5:hover,#divimg6:hover{
+    background-color:#1f1e1e;
+}
+
+.poptxt{
+    margin-top:17px;
+    width:131px;
+    height: 90%;
+  /* background-color: green;*/
+    float:right;
+    overflow:hidden;
+}
+.poptxt a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.poptxt a:hover{
+    color:yellow
+}
+h4{
+    letter-spacing: 2px;
+    margin-left:26px;
+    margin-top:30px;
+}
+.anos{
+     font-size: 12px;
+     color:#959494;
+     display:block;
+     margin-top: 3px;
+}
+
+/*------------------GENEROS-----------------*/
+
+.divgeneros{
+    background-color: #0a0a31;
+    width: 85px;
+    height:30px;
+    overflow: hidden;
+    margin-top:3px;
+    display:inline-block;
+    text-align:center;
+    padding-top:10px;
+}
+
+.divgeneros a{
+    text-decoration: none;
+    color:white;
+}
+.divgeneros a:hover{
+    color: yellow;
+}
+#ação,#drama,#jogos,#musical{
+    margin-left:40px;
+}
+
+/*-------------------Formulario---------------*/
+.login h4{
+    margin-left: 119px;
+    margin-top:20px;
+    font-family:sans-serif;
+    color:#f60000
+}
+
+fieldset {
+    border: none;
+    background-color: #0a0a31;
+    border-radius: 6px;
+    width:290px;
+    margin: 13px;
+}
+#email, #password {
+    width:220px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: #5652527c;
+}
+#esquecisenha, #cadastro {
+    text-decoration: none;
+    color:#f31212f4;
+}
+#buttonlogin{
+    margin-left: 77px;
+    height:28px;
+    width:160px;
+    border-radius:5px;
+    border-color:#3030e2;
+    background-color: #3030e2;
+    position: relative;
+    bottom: 3px;
+}
+#esquecisenha{
+    margin-left: 35px;
+    font-size: 13px;
+    position: relative;
+    bottom: 8px;
+}
+.login p{
+    margin-left: 53px;
+    font-size:15px
+}
+input{
+    color:white;
+    font-family: helvetica;
+}
+#buttonlogin:hover{
+    background-color: rgba(11, 87, 153, 0.686);
+    cursor:pointer;
+    border:none;
+}
