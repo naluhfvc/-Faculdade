@@ -1,0 +1,161 @@
+<script>
+
+    //1. Faça um programa que sorteia um número de 0 a 9999 e mostre na tela cada um dos dígitos separadamente.exemplo: unidade: 4 dezena: 3 centena: 8 milhar
+
+    /*var numero = Math.random() * 10000;
+
+    document.write('numero: ' + Math.trunc(numero) + '<br>');
+
+    var milhar = numero / 1000;
+    var centena = (numero % 1000) / 100;
+    var dezena = (( numero % 1000)% 100) /10;
+    var unidade = (( numero % 1000)% 100) % 10;
+
+    document.write('milhar: ',Math.trunc(milhar), ' centena: ', Math.trunc(centena), ' dezena: ', Math.trunc(dezena), ' unidade: ', Math.trunc(unidade));*/
+
+    //2. Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
+    
+    /*var numero = Math.random() * (5+1);
+    console.log(Math.trunc(numero));
+
+    var numero2 = Number(prompt('Tente acertar o numero: '));
+
+    if(numero == numero2){
+        alert('Acertou');
+    }else{
+        alert('Errou');
+    }*/
+
+    //3. Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que foi multado. A multa vai custar R$7,00 por cada KM acima do limite.
+
+    /*var km = Number(prompt('Digite a velocidade do carro: '));
+
+    if(km > 80.0){
+        alert('Voce foi multado!!!');
+        var multa = (km % 80)  * 7;
+        document.write('O valor da sua multa é de R$ ', multa); 
+    }*/
+
+    //4. Desenvolva um programa que pergunte a distância de uma viagem em Km. Calcule o preço da passagem, cobrando R$0,50 por KM para viagens de até 200Km e R$0,45 para viagens mais longas.
+
+    /*var distancia = Number(prompt('Digite a distancia da viagem: '));
+
+    var passagem;
+    var valor1 = 0.50;
+    var valor2 = 0.45;
+    
+    if(distancia <= 200.0){
+        passagem = distancia * valor1;
+        alert('A passagem custa R$'+ passagem.toFixed(2));
+    }else{
+        passagem = distancia * valor2 ;
+        alert('A passagem custa R$ ' + passagem.toFixed(2));
+    }*/
+
+
+    //5. Faça um programa que leia um ano qualquer e mostre se ele é Bissexto.
+
+
+    /*var ano = Number(prompt('Digite o ano: '));
+
+    if((ano % 4 == 0) || ((ano % 400 == 0) && (ano % 100 != 0))){
+        alert('O ano é bissexto!');
+    } else {
+        alert('O ano não é bissexto!');
+    }*/
+
+    //6. Faça um programa que leia 3 números e mostre qual é o maior e qual é o menor.
+
+    /*var numero1 = Number(prompt('Digite um numero:'));
+    var numero2 = Number(prompt('Digite um numero:'));
+    var numero3 = Number(prompt('Digite um numero:'));
+
+    if(numero1 > numero2 && numero1 > numero3){
+        alert(`O maior numero é ${numero1}`);
+    } else if(numero2 > numero1 && numero2 > numero3){
+        alert(`O maior numero é ${numero2}`);
+    } else if(numero3 > numero1 && numero3 > numero2){
+        alert(`O maior numero é ${numero3}`);
+    }*/
+
+    //7. Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1.250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o número é de 15%.
+
+    /*var salario = Number(prompt('Digite o salário: '));
+
+    if(salario > 1250.0){
+        var aumentoSalario = salario * 0.10 ;
+        alert('Valor do aumento: ' + aumentoSalario + '\nSalario final: ' + (salario + aumentoSalario));
+    } else {
+        var aumentoSalario = salario * 0.15;
+        alert('Valor do aumento: ' + aumentoSalario + '\nSalario final: ' + (salario + aumentoSalario));
+    }*/
+
+
+    //8.Faça um script que peça dois inteiros e armazene-os em duas variáveis. Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
+
+    /*var numero1 = +(prompt('Digite um numero inteiro: '));
+    var numero2 = +(prompt('DIgite outro numero inteiro: '));
+    var aux;
+
+    aux = numero1;
+    numero1 = numero2;
+    numero2 = aux;
+
+    alert('Antes: \nnumero1 = '+ aux + '\nnumero2 = '+ numero1);
+    alert('Depois: \nnumero1 = ' + numero1 + '\nnumero2 = '+ numero2);*/
+
+    //9. Faça um script que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+
+    /*var turno = prompt('Em qual turno voce estuda: \n M - matutino \n V- vespertino\n N - noturno');
+
+    if(turno == 'M'){
+        alert('Bom dia!');
+    }else if(turno == 'V'){
+        alert('Boa tarde!');
+    }else if(turno == 'N'){
+        alert('Boa noite!');
+    }else {
+        alert('Valor inválido!');
+    }*/
+
+    //10. Faça um script que peça os 3 lados de um triângulo. O script deverá informar se os valores podem ser um triângulo. Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
+
+    /*var a = +(prompt('Digite o lado 1 do triangulo: '));
+    var b = +(prompt('Digite o lado 2 do triângulo: '));
+    var c = +(prompt('Digite o lado 3 do triângulo: '));
+
+    if((a + b > c) && (a + c > b) && (b + c > a)){
+        alert('É um triângulo!');
+
+        if(a != b &&  a != c && b != c){
+            alert('É um triângulo escaleno!');
+        }else if(a == b && a == c && b == c){
+            alert('É um triângulo equilátero!');
+        }else if(a == b || b == c || a == c){
+            alert('É um triângulo isósceles!');
+        }
+
+    }else {
+        alert('Não é um triângulo!');
+    }*/
+
+    // DESAFIO Faça um script que calcule as raízes de uma equação do segundo grau, na forma ax² + bx + c. O script deverá pedir os valores de a, b e c e fazer os testes necessários.
+
+    /*var a = Number(prompt('Insira o valor de a: '));
+    var b = Number(prompt('Insira o valor de b: '));
+    var c = Number(prompt('Insira o valor de c: '));
+
+    var valorDelta = Math.pow(b,2) - (4 * a * c);
+
+    if(valorDelta < 0){
+        alert('Não tem raízes reais')
+    } else if( valorDelta == 0){
+        var raiz = -b / (2 * a);
+        alert("x¹ = " +  raiz + "\nx² = " + raiz);
+    } else {
+        var raiz1 = (- b + (Math.sqrt(valorDelta))) / (2 * a);
+        var raiz2 = (- b - (Math.sqrt(valorDelta))) / (2 * a);
+        alert("x¹ = " +  raiz1 + "\nx² = " + raiz2);
+    }*/
+
+</script>
