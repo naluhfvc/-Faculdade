@@ -151,7 +151,7 @@ calcularPrimos(N);
 // Faça um programa que determine o salário atual deste funcionário.
 
 
- calcularSalario(salarioInicial){
+ function calcularSalario(salarioInicial){
     var salario = salarioInicial * 1.015;//2020
     salario = salario * 1.06; // 2022
     return document.write ('Salário atual = R$' + salario.toFixed(2));
