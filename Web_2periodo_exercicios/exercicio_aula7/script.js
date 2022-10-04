@@ -29,3 +29,15 @@
     document.write(`${n1} - ${n2} = ${subtracao}`);
 }*/
 
+//3.Elabore um programa usando o DOM que calcule a média aritmética de duas notas e exiba o resultado na tela.
+
+   /* let resp = document.querySelector('#resp');
+
+    function calcularMedia(){
+        let num1 = Number(document.querySelector('#num1').value);
+        let num2 = Number(document.querySelector('#num2').value);
+
+        let media = (num1 + num2) / 2;
+
+        resp.innerText = 'A média é ' + media;
+    }*/
